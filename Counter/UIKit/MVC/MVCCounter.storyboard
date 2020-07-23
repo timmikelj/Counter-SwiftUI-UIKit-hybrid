@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="iIn-bW-rSH">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Counter View Controller-->
+        <scene sceneID="PbF-Nn-wbV">
+            <objects>
+                <viewController id="iIn-bW-rSH" customClass="MVCCounterViewController" customModule="Counter_SwiftUI" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="06r-kM-ciP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lMY-dg-jNB">
+                                <rect key="frame" x="20" y="348" width="374" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="NXu-K3-Wva">
+                                <rect key="frame" x="60" y="468.5" width="294" height="117"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fWq-CZ-ItO" customClass="CustomButtonUIKit" customModule="Counter_SwiftUI" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="117" height="117"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="fWq-CZ-ItO" secondAttribute="height" multiplier="1:1" id="8Gz-Qy-ld9"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                        <state key="normal" title="-">
+                                            <color key="titleColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="decreaseTapped:" destination="iIn-bW-rSH" eventType="touchUpInside" id="M8F-rv-zs5"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2vf-Jn-Sg9" customClass="CustomButtonUIKit" customModule="Counter_SwiftUI" customModuleProvider="target">
+                                        <rect key="frame" x="177" y="0.0" width="117" height="117"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                        <state key="normal" title="+">
+                                            <color key="titleColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="increaseTapped:" destination="iIn-bW-rSH" eventType="touchUpInside" id="rPF-vD-jA1"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="2vf-Jn-Sg9" firstAttribute="width" secondItem="fWq-CZ-ItO" secondAttribute="width" id="Zib-0L-sQs"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="NXu-K3-Wva" firstAttribute="top" secondItem="lMY-dg-jNB" secondAttribute="bottom" constant="100" id="DBS-L5-Lzp"/>
+                            <constraint firstItem="lMY-dg-jNB" firstAttribute="leading" secondItem="wjO-UL-nH3" secondAttribute="leading" constant="20" id="HE0-80-OUG"/>
+                            <constraint firstItem="wjO-UL-nH3" firstAttribute="trailing" secondItem="NXu-K3-Wva" secondAttribute="trailing" constant="60" id="QNB-1R-wLh"/>
+                            <constraint firstItem="NXu-K3-Wva" firstAttribute="leading" secondItem="wjO-UL-nH3" secondAttribute="leading" constant="60" id="Sx1-PK-sKy"/>
+                            <constraint firstItem="wjO-UL-nH3" firstAttribute="trailing" secondItem="lMY-dg-jNB" secondAttribute="trailing" constant="20" id="g5K-ws-jtq"/>
+                            <constraint firstItem="lMY-dg-jNB" firstAttribute="centerY" secondItem="06r-kM-ciP" secondAttribute="centerY" multiplier="0.8" id="kmg-w9-TL0"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="wjO-UL-nH3"/>
+                    </view>
+                    <connections>
+                        <outlet property="titleLabel" destination="lMY-dg-jNB" id="rH8-BB-LVt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FYB-iT-2lw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-475.36231884057975" y="97.767857142857139"/>
+        </scene>
+    </scenes>
+</document>
