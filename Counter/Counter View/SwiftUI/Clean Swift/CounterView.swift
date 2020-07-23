@@ -20,12 +20,24 @@ struct CounterView: View {
                 .font(.title)
             Spacer()
             HStack {
-                CustomButton(text: "-") {
+                Button(action: {
                     self.adapter.interactor?.decreaseTapped()
+                }) {
+                    Text("-")
+                        .foregroundColor(Color(.darkGray))
+                        .font(.largeTitle)
                 }
-                CustomButton(text: "+") {
+                .buttonStyle(NeumorphicButtonStyle(widthAndHeight: 100))
+                Spacer()
+                    .frame(width: 50)
+                Button(action: {
                     self.adapter.interactor?.increaseTapped()
+                }) {
+                    Text("+")
+                        .foregroundColor(Color(.darkGray))
+                        .font(.largeTitle)
                 }
+                .buttonStyle(NeumorphicButtonStyle(widthAndHeight: 100))
             }
             Spacer()
         }

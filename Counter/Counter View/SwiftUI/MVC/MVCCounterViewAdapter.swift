@@ -18,7 +18,7 @@ class MVCCounterViewAdapter: ObservableObject {
         self.model = model
     }
     
-    @Published var countDisplayString: String = "Start counting 🔄"
+    @Published var countDisplayString: String = "Start counting"
 }
 
 extension MVCCounterViewAdapter: MVCCounterViewDisplayLogic {

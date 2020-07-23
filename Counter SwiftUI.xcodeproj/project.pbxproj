@@ -11,38 +11,47 @@
 		82747DFE24C98FC900577190 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82747DFD24C98FC900577190 /* SceneDelegate.swift */; };
 		82747E0024C98FC900577190 /* MVCCounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82747DFF24C98FC900577190 /* MVCCounterView.swift */; };
 		82747E0224C98FD200577190 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82747E0124C98FD200577190 /* Assets.xcassets */; };
-		82747E0524C98FD200577190 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82747E0424C98FD200577190 /* Preview Assets.xcassets */; };
 		82747E0824C98FD200577190 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82747E0624C98FD200577190 /* LaunchScreen.storyboard */; };
 		82747E1524C9905300577190 /* MVCCounterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82747E1424C9905300577190 /* MVCCounterViewModel.swift */; };
 		82747E1724C9907C00577190 /* MVCCounterDisplayLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82747E1624C9907C00577190 /* MVCCounterDisplayLogic.swift */; };
 		82747E1B24C990C600577190 /* MVCCounterViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82747E1A24C990C600577190 /* MVCCounterViewAdapter.swift */; };
-		82747E1E24C9910900577190 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82747E1D24C9910900577190 /* CustomButton.swift */; };
-		82747E2424C9A71F00577190 /* CounterViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82747E2324C9A71F00577190 /* CounterViewAdapter.swift */; };
-		82747E2624C9A75300577190 /* CounterInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82747E2524C9A75300577190 /* CounterInteractor.swift */; };
-		82747E2824C9A77600577190 /* CounterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82747E2724C9A77600577190 /* CounterPresenter.swift */; };
-		82747E2A24C9A7BA00577190 /* CounterDisplayLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82747E2924C9A7BA00577190 /* CounterDisplayLogic.swift */; };
-		82747E2C24C9A7F700577190 /* CounterModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82747E2B24C9A7F700577190 /* CounterModels.swift */; };
-		82747E2E24C9A83D00577190 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82747E2D24C9A83D00577190 /* CounterView.swift */; };
 		82747E3024C9A90700577190 /* MVCCounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82747E2F24C9A90700577190 /* MVCCounterViewController.swift */; };
 		82747E3224C9A91700577190 /* MVCCounter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82747E3124C9A91700577190 /* MVCCounter.storyboard */; };
 		82747E3524C9AAFB00577190 /* CustomButtonUIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82747E3424C9AAFB00577190 /* CustomButtonUIKit.swift */; };
-		82747E3724C9AE1E00577190 /* CounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82747E3624C9AE1E00577190 /* CounterViewController.swift */; };
-		82747E3924C9AE2E00577190 /* CounterStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82747E3824C9AE2D00577190 /* CounterStoryboard.storyboard */; };
+		82747E3D24C9AFA400577190 /* CustomButtonUIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82747E3424C9AAFB00577190 /* CustomButtonUIKit.swift */; };
+		82747E3F24C9AFA400577190 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82747DFB24C98FC900577190 /* AppDelegate.swift */; };
+		82747E4124C9AFA400577190 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82747DFD24C98FC900577190 /* SceneDelegate.swift */; };
+		82747E4224C9AFA400577190 /* CounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82747E3624C9AE1E00577190 /* CounterViewController.swift */; };
+		82747E4424C9AFA400577190 /* CounterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82747E2724C9A77600577190 /* CounterPresenter.swift */; };
+		82747E4524C9AFA400577190 /* CounterDisplayLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82747E2924C9A7BA00577190 /* CounterDisplayLogic.swift */; };
+		82747E4724C9AFA400577190 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82747E2D24C9A83D00577190 /* CounterView.swift */; };
+		82747E4A24C9AFA400577190 /* CounterInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82747E2524C9A75300577190 /* CounterInteractor.swift */; };
+		82747E4B24C9AFA400577190 /* CounterModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82747E2B24C9A7F700577190 /* CounterModels.swift */; };
+		82747E4C24C9AFA400577190 /* CounterViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82747E2324C9A71F00577190 /* CounterViewAdapter.swift */; };
+		82747E4F24C9AFA400577190 /* CounterStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82747E3824C9AE2D00577190 /* CounterStoryboard.storyboard */; };
+		82747E5024C9AFA400577190 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82747E0624C98FD200577190 /* LaunchScreen.storyboard */; };
+		82747E5324C9AFA400577190 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82747E0124C98FD200577190 /* Assets.xcassets */; };
+		82747E5E24C9B21C00577190 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82747E5D24C9B21C00577190 /* HomeView.swift */; };
+		82747E5F24C9B22100577190 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82747E5D24C9B21C00577190 /* HomeView.swift */; };
+		82747E6224C9B60600577190 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82747E6124C9B60600577190 /* Color.swift */; };
+		82747E6324C9B66300577190 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82747E6124C9B60600577190 /* Color.swift */; };
+		82747E6524C9BA8200577190 /* LinearGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82747E6424C9BA8200577190 /* LinearGradient.swift */; };
+		82747E6624C9BA9600577190 /* LinearGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82747E6424C9BA8200577190 /* LinearGradient.swift */; };
+		82747E6824C9D60A00577190 /* NeumorphicButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82747E6724C9D60A00577190 /* NeumorphicButtonStyle.swift */; };
+		82747E6924C9D96100577190 /* NeumorphicButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82747E6724C9D60A00577190 /* NeumorphicButtonStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		82747DF824C98FC900577190 /* Counter SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Counter SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82747DF824C98FC900577190 /* Counter SwiftUI & UIKit MVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Counter SwiftUI & UIKit MVC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82747DFB24C98FC900577190 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82747DFD24C98FC900577190 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		82747DFF24C98FC900577190 /* MVCCounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVCCounterView.swift; sourceTree = "<group>"; };
 		82747E0124C98FD200577190 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		82747E0424C98FD200577190 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		82747E0724C98FD200577190 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82747E0924C98FD200577190 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82747E1424C9905300577190 /* MVCCounterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVCCounterViewModel.swift; sourceTree = "<group>"; };
 		82747E1624C9907C00577190 /* MVCCounterDisplayLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVCCounterDisplayLogic.swift; sourceTree = "<group>"; };
 		82747E1A24C990C600577190 /* MVCCounterViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVCCounterViewAdapter.swift; sourceTree = "<group>"; };
-		82747E1D24C9910900577190 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		82747E2324C9A71F00577190 /* CounterViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewAdapter.swift; sourceTree = "<group>"; };
 		82747E2524C9A75300577190 /* CounterInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterInteractor.swift; sourceTree = "<group>"; };
 		82747E2724C9A77600577190 /* CounterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterPresenter.swift; sourceTree = "<group>"; };
@@ -54,10 +63,22 @@
 		82747E3424C9AAFB00577190 /* CustomButtonUIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonUIKit.swift; sourceTree = "<group>"; };
 		82747E3624C9AE1E00577190 /* CounterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewController.swift; sourceTree = "<group>"; };
 		82747E3824C9AE2D00577190 /* CounterStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CounterStoryboard.storyboard; sourceTree = "<group>"; };
+		82747E5724C9AFA400577190 /* Counter SwiftUI & UIKit Clean Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Counter SwiftUI & UIKit Clean Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82747E5D24C9B21C00577190 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		82747E6124C9B60600577190 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		82747E6424C9BA8200577190 /* LinearGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradient.swift; sourceTree = "<group>"; };
+		82747E6724C9D60A00577190 /* NeumorphicButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		82747DF524C98FC900577190 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82747E4D24C9AFA400577190 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,7 +101,8 @@
 		82747DF924C98FC900577190 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				82747DF824C98FC900577190 /* Counter SwiftUI.app */,
+				82747DF824C98FC900577190 /* Counter SwiftUI & UIKit MVC.app */,
+				82747E5724C9AFA400577190 /* Counter SwiftUI & UIKit Clean Swift.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -88,24 +110,16 @@
 		82747DFA24C98FC900577190 /* Counter */ = {
 			isa = PBXGroup;
 			children = (
-				82747E1924C990A800577190 /* SwiftUI */,
-				82747E1824C990A100577190 /* UIKit */,
-				82747E0324C98FD200577190 /* Preview Content */,
+				82747E5B24C9B1F600577190 /* Welcome Page */,
+				82747E5C24C9B20000577190 /* Counter View */,
 			);
 			path = Counter;
-			sourceTree = "<group>";
-		};
-		82747E0324C98FD200577190 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				82747E0424C98FD200577190 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		82747E0F24C98FF000577190 /* Shared Code */ = {
 			isa = PBXGroup;
 			children = (
+				82747E6024C9B5F600577190 /* Extensions */,
 				82747E3A24C9AF3300577190 /* Views */,
 				82747E1024C98FFB00577190 /* Business Logic */,
 			);
@@ -174,7 +188,7 @@
 		82747E1C24C990FE00577190 /* SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				82747E1D24C9910900577190 /* CustomButton.swift */,
+				82747E6724C9D60A00577190 /* NeumorphicButtonStyle.swift */,
 			);
 			path = SwiftUI;
 			sourceTree = "<group>";
@@ -232,12 +246,38 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		82747E5B24C9B1F600577190 /* Welcome Page */ = {
+			isa = PBXGroup;
+			children = (
+				82747E5D24C9B21C00577190 /* HomeView.swift */,
+			);
+			path = "Welcome Page";
+			sourceTree = "<group>";
+		};
+		82747E5C24C9B20000577190 /* Counter View */ = {
+			isa = PBXGroup;
+			children = (
+				82747E1924C990A800577190 /* SwiftUI */,
+				82747E1824C990A100577190 /* UIKit */,
+			);
+			path = "Counter View";
+			sourceTree = "<group>";
+		};
+		82747E6024C9B5F600577190 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				82747E6124C9B60600577190 /* Color.swift */,
+				82747E6424C9BA8200577190 /* LinearGradient.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		82747DF724C98FC900577190 /* Counter SwiftUI */ = {
+		82747DF724C98FC900577190 /* Counter SwiftUI MVC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 82747E0C24C98FD200577190 /* Build configuration list for PBXNativeTarget "Counter SwiftUI" */;
+			buildConfigurationList = 82747E0C24C98FD200577190 /* Build configuration list for PBXNativeTarget "Counter SwiftUI MVC" */;
 			buildPhases = (
 				82747DF424C98FC900577190 /* Sources */,
 				82747DF524C98FC900577190 /* Frameworks */,
@@ -247,9 +287,26 @@
 			);
 			dependencies = (
 			);
-			name = "Counter SwiftUI";
+			name = "Counter SwiftUI MVC";
 			productName = "Counter SwiftUI";
-			productReference = 82747DF824C98FC900577190 /* Counter SwiftUI.app */;
+			productReference = 82747DF824C98FC900577190 /* Counter SwiftUI & UIKit MVC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82747E3B24C9AFA400577190 /* Counter SwiftUI Clean Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82747E5424C9AFA400577190 /* Build configuration list for PBXNativeTarget "Counter SwiftUI Clean Swift" */;
+			buildPhases = (
+				82747E3C24C9AFA400577190 /* Sources */,
+				82747E4D24C9AFA400577190 /* Frameworks */,
+				82747E4E24C9AFA400577190 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Counter SwiftUI Clean Swift";
+			productName = "Counter SwiftUI";
+			productReference = 82747E5724C9AFA400577190 /* Counter SwiftUI & UIKit Clean Swift.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -267,7 +324,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 82747DF324C98FC900577190 /* Build configuration list for PBXProject "Counter SwiftUI & UIKit Hybrid" */;
+			buildConfigurationList = 82747DF324C98FC900577190 /* Build configuration list for PBXProject "Counter SwiftUI" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -280,7 +337,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				82747DF724C98FC900577190 /* Counter SwiftUI */,
+				82747DF724C98FC900577190 /* Counter SwiftUI MVC */,
+				82747E3B24C9AFA400577190 /* Counter SwiftUI Clean Swift */,
 			);
 		};
 /* End PBXProject section */
@@ -290,11 +348,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82747E3924C9AE2E00577190 /* CounterStoryboard.storyboard in Resources */,
 				82747E0824C98FD200577190 /* LaunchScreen.storyboard in Resources */,
-				82747E0524C98FD200577190 /* Preview Assets.xcassets in Resources */,
 				82747E3224C9A91700577190 /* MVCCounter.storyboard in Resources */,
 				82747E0224C98FD200577190 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82747E4E24C9AFA400577190 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82747E4F24C9AFA400577190 /* CounterStoryboard.storyboard in Resources */,
+				82747E5024C9AFA400577190 /* LaunchScreen.storyboard in Resources */,
+				82747E5324C9AFA400577190 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,20 +373,37 @@
 			files = (
 				82747E3524C9AAFB00577190 /* CustomButtonUIKit.swift in Sources */,
 				82747E1724C9907C00577190 /* MVCCounterDisplayLogic.swift in Sources */,
+				82747E6224C9B60600577190 /* Color.swift in Sources */,
+				82747E6824C9D60A00577190 /* NeumorphicButtonStyle.swift in Sources */,
 				82747DFC24C98FC900577190 /* AppDelegate.swift in Sources */,
+				82747E6524C9BA8200577190 /* LinearGradient.swift in Sources */,
 				82747E1B24C990C600577190 /* MVCCounterViewAdapter.swift in Sources */,
 				82747DFE24C98FC900577190 /* SceneDelegate.swift in Sources */,
-				82747E3724C9AE1E00577190 /* CounterViewController.swift in Sources */,
-				82747E1E24C9910900577190 /* CustomButton.swift in Sources */,
-				82747E2824C9A77600577190 /* CounterPresenter.swift in Sources */,
-				82747E2A24C9A7BA00577190 /* CounterDisplayLogic.swift in Sources */,
+				82747E5E24C9B21C00577190 /* HomeView.swift in Sources */,
 				82747E1524C9905300577190 /* MVCCounterViewModel.swift in Sources */,
-				82747E2E24C9A83D00577190 /* CounterView.swift in Sources */,
 				82747E0024C98FC900577190 /* MVCCounterView.swift in Sources */,
 				82747E3024C9A90700577190 /* MVCCounterViewController.swift in Sources */,
-				82747E2624C9A75300577190 /* CounterInteractor.swift in Sources */,
-				82747E2C24C9A7F700577190 /* CounterModels.swift in Sources */,
-				82747E2424C9A71F00577190 /* CounterViewAdapter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82747E3C24C9AFA400577190 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82747E3D24C9AFA400577190 /* CustomButtonUIKit.swift in Sources */,
+				82747E3F24C9AFA400577190 /* AppDelegate.swift in Sources */,
+				82747E4124C9AFA400577190 /* SceneDelegate.swift in Sources */,
+				82747E4224C9AFA400577190 /* CounterViewController.swift in Sources */,
+				82747E6324C9B66300577190 /* Color.swift in Sources */,
+				82747E5F24C9B22100577190 /* HomeView.swift in Sources */,
+				82747E4424C9AFA400577190 /* CounterPresenter.swift in Sources */,
+				82747E4524C9AFA400577190 /* CounterDisplayLogic.swift in Sources */,
+				82747E4724C9AFA400577190 /* CounterView.swift in Sources */,
+				82747E4A24C9AFA400577190 /* CounterInteractor.swift in Sources */,
+				82747E4B24C9AFA400577190 /* CounterModels.swift in Sources */,
+				82747E6624C9BA9600577190 /* LinearGradient.swift in Sources */,
+				82747E4C24C9AFA400577190 /* CounterViewAdapter.swift in Sources */,
+				82747E6924C9D96100577190 /* NeumorphicButtonStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,7 +471,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -442,7 +525,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -457,7 +540,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Counter/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 43HPDBHL29;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Supporting Files/Info.plist";
@@ -465,8 +548,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.timmikelj.Counter-SwiftUI";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.timmikelj.Counter-SwiftUI-UIKit-MVC";
+				PRODUCT_NAME = "Counter SwiftUI & UIKit MVC";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -477,7 +560,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Counter/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 43HPDBHL29;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Supporting Files/Info.plist";
@@ -485,8 +568,48 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.timmikelj.Counter-SwiftUI";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.timmikelj.Counter-SwiftUI-UIKit-MVC";
+				PRODUCT_NAME = "Counter SwiftUI & UIKit MVC";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		82747E5524C9AFA400577190 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 43HPDBHL29;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.timmikelj.Counter-SwiftUI-UIKit-Clean-Swift";
+				PRODUCT_NAME = "Counter SwiftUI & UIKit Clean Swift";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82747E5624C9AFA400577190 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 43HPDBHL29;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.timmikelj.Counter-SwiftUI-UIKit-Clean-Swift";
+				PRODUCT_NAME = "Counter SwiftUI & UIKit Clean Swift";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -495,7 +618,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		82747DF324C98FC900577190 /* Build configuration list for PBXProject "Counter SwiftUI & UIKit Hybrid" */ = {
+		82747DF324C98FC900577190 /* Build configuration list for PBXProject "Counter SwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				82747E0A24C98FD200577190 /* Debug */,
@@ -504,11 +627,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		82747E0C24C98FD200577190 /* Build configuration list for PBXNativeTarget "Counter SwiftUI" */ = {
+		82747E0C24C98FD200577190 /* Build configuration list for PBXNativeTarget "Counter SwiftUI MVC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				82747E0D24C98FD200577190 /* Debug */,
 				82747E0E24C98FD200577190 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82747E5424C9AFA400577190 /* Build configuration list for PBXNativeTarget "Counter SwiftUI Clean Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82747E5524C9AFA400577190 /* Debug */,
+				82747E5624C9AFA400577190 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
