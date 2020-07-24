@@ -88,11 +88,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		82256F2F24CACEC600EFDE90 /* Clean Swift Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				82256F3124CACF0600EFDE90 /* Shared Code */,
+				82256F3724CACF9C00EFDE90 /* UIKit */,
+				82256F3624CACF8A00EFDE90 /* SwiftUI */,
+			);
+			path = "Clean Swift Implementation";
+			sourceTree = "<group>";
+		};
+		82256F3024CACED300EFDE90 /* MVC Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				82256F3224CACF1300EFDE90 /* Shared Code */,
+				82256F3524CACF6600EFDE90 /* UIKit */,
+				82256F3424CACF5D00EFDE90 /* SwiftUI */,
+			);
+			path = "MVC Implementation";
+			sourceTree = "<group>";
+		};
+		82256F3124CACF0600EFDE90 /* Shared Code */ = {
+			isa = PBXGroup;
+			children = (
+				82747E2524C9A75300577190 /* CounterInteractor.swift */,
+				82747E2724C9A77600577190 /* CounterPresenter.swift */,
+				82747E2924C9A7BA00577190 /* CounterDisplayLogic.swift */,
+				82747E2B24C9A7F700577190 /* CounterModels.swift */,
+			);
+			path = "Shared Code";
+			sourceTree = "<group>";
+		};
+		82256F3224CACF1300EFDE90 /* Shared Code */ = {
+			isa = PBXGroup;
+			children = (
+				82747E1424C9905300577190 /* MVCCounterViewModel.swift */,
+				82747E1624C9907C00577190 /* MVCCounterDisplayLogic.swift */,
+			);
+			path = "Shared Code";
+			sourceTree = "<group>";
+		};
+		82256F3324CACF4800EFDE90 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				82747E6024C9B5F600577190 /* Extensions */,
+				82747E3A24C9AF3300577190 /* Custom Views */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		82256F3424CACF5D00EFDE90 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				82747E1A24C990C600577190 /* MVCCounterViewAdapter.swift */,
+				82747DFF24C98FC900577190 /* MVCCounterView.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		82256F3524CACF6600EFDE90 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				82747E2F24C9A90700577190 /* MVCCounterViewController.swift */,
+				82747E3124C9A91700577190 /* MVCCounter.storyboard */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		82256F3624CACF8A00EFDE90 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				82747E2324C9A71F00577190 /* CounterViewAdapter.swift */,
+				82747E2D24C9A83D00577190 /* CounterView.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		82256F3724CACF9C00EFDE90 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				82747E3624C9AE1E00577190 /* CounterViewController.swift */,
+				82747E3824C9AE2D00577190 /* CounterStoryboard.storyboard */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
 		82747DEF24C98FC900577190 = {
 			isa = PBXGroup;
 			children = (
 				82747E1324C9901500577190 /* Supporting Files */,
-				82747E0F24C98FF000577190 /* Shared Code */,
 				82747DFA24C98FC900577190 /* Counter */,
 				82747DF924C98FC900577190 /* Products */,
 			);
@@ -110,49 +194,12 @@
 		82747DFA24C98FC900577190 /* Counter */ = {
 			isa = PBXGroup;
 			children = (
-				82747E5B24C9B1F600577190 /* Welcome Page */,
-				82747E5C24C9B20000577190 /* Counter View */,
+				82747E5D24C9B21C00577190 /* HomeView.swift */,
+				82256F3324CACF4800EFDE90 /* Helpers */,
+				82256F2F24CACEC600EFDE90 /* Clean Swift Implementation */,
+				82256F3024CACED300EFDE90 /* MVC Implementation */,
 			);
 			path = Counter;
-			sourceTree = "<group>";
-		};
-		82747E0F24C98FF000577190 /* Shared Code */ = {
-			isa = PBXGroup;
-			children = (
-				82747E6024C9B5F600577190 /* Extensions */,
-				82747E3A24C9AF3300577190 /* Views */,
-				82747E1024C98FFB00577190 /* Business Logic */,
-			);
-			path = "Shared Code";
-			sourceTree = "<group>";
-		};
-		82747E1024C98FFB00577190 /* Business Logic */ = {
-			isa = PBXGroup;
-			children = (
-				82747E1124C9900400577190 /* MVC */,
-				82747E1224C9900A00577190 /* Clean Swift */,
-			);
-			path = "Business Logic";
-			sourceTree = "<group>";
-		};
-		82747E1124C9900400577190 /* MVC */ = {
-			isa = PBXGroup;
-			children = (
-				82747E1424C9905300577190 /* MVCCounterViewModel.swift */,
-				82747E1624C9907C00577190 /* MVCCounterDisplayLogic.swift */,
-			);
-			path = MVC;
-			sourceTree = "<group>";
-		};
-		82747E1224C9900A00577190 /* Clean Swift */ = {
-			isa = PBXGroup;
-			children = (
-				82747E2524C9A75300577190 /* CounterInteractor.swift */,
-				82747E2724C9A77600577190 /* CounterPresenter.swift */,
-				82747E2924C9A7BA00577190 /* CounterDisplayLogic.swift */,
-				82747E2B24C9A7F700577190 /* CounterModels.swift */,
-			);
-			path = "Clean Swift";
 			sourceTree = "<group>";
 		};
 		82747E1324C9901500577190 /* Supporting Files */ = {
@@ -167,66 +214,12 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		82747E1824C990A100577190 /* UIKit */ = {
-			isa = PBXGroup;
-			children = (
-				82747E2124C9A65500577190 /* MVC */,
-				82747E2224C9A65B00577190 /* Clean Swift */,
-			);
-			path = UIKit;
-			sourceTree = "<group>";
-		};
-		82747E1924C990A800577190 /* SwiftUI */ = {
-			isa = PBXGroup;
-			children = (
-				82747E1F24C9914F00577190 /* MVC */,
-				82747E2024C9A63B00577190 /* Clean Swift */,
-			);
-			path = SwiftUI;
-			sourceTree = "<group>";
-		};
 		82747E1C24C990FE00577190 /* SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
 				82747E6724C9D60A00577190 /* NeumorphicButtonStyle.swift */,
 			);
 			path = SwiftUI;
-			sourceTree = "<group>";
-		};
-		82747E1F24C9914F00577190 /* MVC */ = {
-			isa = PBXGroup;
-			children = (
-				82747E1A24C990C600577190 /* MVCCounterViewAdapter.swift */,
-				82747DFF24C98FC900577190 /* MVCCounterView.swift */,
-			);
-			path = MVC;
-			sourceTree = "<group>";
-		};
-		82747E2024C9A63B00577190 /* Clean Swift */ = {
-			isa = PBXGroup;
-			children = (
-				82747E2324C9A71F00577190 /* CounterViewAdapter.swift */,
-				82747E2D24C9A83D00577190 /* CounterView.swift */,
-			);
-			path = "Clean Swift";
-			sourceTree = "<group>";
-		};
-		82747E2124C9A65500577190 /* MVC */ = {
-			isa = PBXGroup;
-			children = (
-				82747E2F24C9A90700577190 /* MVCCounterViewController.swift */,
-				82747E3124C9A91700577190 /* MVCCounter.storyboard */,
-			);
-			path = MVC;
-			sourceTree = "<group>";
-		};
-		82747E2224C9A65B00577190 /* Clean Swift */ = {
-			isa = PBXGroup;
-			children = (
-				82747E3624C9AE1E00577190 /* CounterViewController.swift */,
-				82747E3824C9AE2D00577190 /* CounterStoryboard.storyboard */,
-			);
-			path = "Clean Swift";
 			sourceTree = "<group>";
 		};
 		82747E3324C9AADA00577190 /* UIKit */ = {
@@ -237,30 +230,13 @@
 			path = UIKit;
 			sourceTree = "<group>";
 		};
-		82747E3A24C9AF3300577190 /* Views */ = {
+		82747E3A24C9AF3300577190 /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
 				82747E3324C9AADA00577190 /* UIKit */,
 				82747E1C24C990FE00577190 /* SwiftUI */,
 			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		82747E5B24C9B1F600577190 /* Welcome Page */ = {
-			isa = PBXGroup;
-			children = (
-				82747E5D24C9B21C00577190 /* HomeView.swift */,
-			);
-			path = "Welcome Page";
-			sourceTree = "<group>";
-		};
-		82747E5C24C9B20000577190 /* Counter View */ = {
-			isa = PBXGroup;
-			children = (
-				82747E1924C990A800577190 /* SwiftUI */,
-				82747E1824C990A100577190 /* UIKit */,
-			);
-			path = "Counter View";
+			path = "Custom Views";
 			sourceTree = "<group>";
 		};
 		82747E6024C9B5F600577190 /* Extensions */ = {
