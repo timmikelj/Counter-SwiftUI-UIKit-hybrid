@@ -13,7 +13,7 @@ class CustomButtonUIKit: UIButton {
     override func didMoveToSuperview() {
         backgroundColor = .systemBlue
         titleLabel?.textColor = .systemBackground
-        layer.cornerRadius = bounds.height / 2
+        layer.cornerRadius = frame.height / 2
     }
 
 }

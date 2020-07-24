@@ -21,6 +21,11 @@ class MVCCounterViewController: UIViewController {
         self.model = model
     }
     
+    override func viewDidLoad() {
+        view.backgroundColor = .offWhite
+        UIApplication.shared.statusBarView?.backgroundColor = .offWhite
+    }
+    
     @IBAction func decreaseTapped(_ sender: CustomButtonUIKit) {
         model?.decreaseTapped()
     }

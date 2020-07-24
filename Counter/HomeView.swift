@@ -24,26 +24,17 @@ struct HomeView: View {
         NavigationView {
             
             ZStack {
-                Color(.offWhite)
                 
-                NavigationLink(destination: MVCCounterView(), tag: 2, selection: $mvcCounterViewTag) {
-                    EmptyView()
-                }
-                .navigationBarTitle("MVC SwiftUI")
-                .navigationBarTitle(
-                    Text("MVC SwiftUI")
-                        .foregroundColor(Color(.darkGray))
-                )
+                NavigationLink(destination: MVCCounterView(), tag: 2, selection: $mvcCounterViewTag) {}
+                NavigationLink(destination: MVCCounterViewControllerWrapper(), tag: 1, selection: $mvcCounterViewTag) {}
+                
+                Color(.offWhite)
                 
                 VStack {
                     Spacer()
                     
                     Button(action: {
-                        
-                        guard let vc = UIStoryboard(name: "MVCCounter", bundle: nil)
-                        .instantiateViewController(withIdentifier: "MVCCounterViewController") as? MVCCounterViewController else { return}
-                        
-                        // TODO: - add UIKit routing in here
+                        self.mvcCounterViewTag = 1
                         
                     }) {
                         Text("UIKit")
@@ -70,7 +61,7 @@ struct HomeView: View {
                     Spacer()
                 }
             }
-            .navigationBarTitle(Text("Counter").foregroundColor(Color(.darkGray)))
+            .navigationBarTitle("Home")
             .foregroundColor(Color(.offWhite))
             .edgesIgnoringSafeArea(.all)
         }

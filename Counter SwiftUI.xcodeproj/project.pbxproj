@@ -39,6 +39,8 @@
 		82747E6624C9BA9600577190 /* LinearGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82747E6424C9BA8200577190 /* LinearGradient.swift */; };
 		82747E6824C9D60A00577190 /* NeumorphicButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82747E6724C9D60A00577190 /* NeumorphicButtonStyle.swift */; };
 		82747E6924C9D96100577190 /* NeumorphicButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82747E6724C9D60A00577190 /* NeumorphicButtonStyle.swift */; };
+		828FF5CD24CAD57D00083EC0 /* MVCCounterViewControllerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828FF5CC24CAD57D00083EC0 /* MVCCounterViewControllerWrapper.swift */; };
+		828FF5CF24CAD98E00083EC0 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828FF5CE24CAD98E00083EC0 /* UIApplication.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +70,8 @@
 		82747E6124C9B60600577190 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		82747E6424C9BA8200577190 /* LinearGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradient.swift; sourceTree = "<group>"; };
 		82747E6724C9D60A00577190 /* NeumorphicButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicButtonStyle.swift; sourceTree = "<group>"; };
+		828FF5CC24CAD57D00083EC0 /* MVCCounterViewControllerWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVCCounterViewControllerWrapper.swift; sourceTree = "<group>"; };
+		828FF5CE24CAD98E00083EC0 /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +153,7 @@
 		82256F3524CACF6600EFDE90 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				828FF5CC24CAD57D00083EC0 /* MVCCounterViewControllerWrapper.swift */,
 				82747E2F24C9A90700577190 /* MVCCounterViewController.swift */,
 				82747E3124C9A91700577190 /* MVCCounter.storyboard */,
 			);
@@ -244,6 +249,7 @@
 			children = (
 				82747E6124C9B60600577190 /* Color.swift */,
 				82747E6424C9BA8200577190 /* LinearGradient.swift */,
+				828FF5CE24CAD98E00083EC0 /* UIApplication.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -355,8 +361,10 @@
 				82747E6524C9BA8200577190 /* LinearGradient.swift in Sources */,
 				82747E1B24C990C600577190 /* MVCCounterViewAdapter.swift in Sources */,
 				82747DFE24C98FC900577190 /* SceneDelegate.swift in Sources */,
+				828FF5CF24CAD98E00083EC0 /* UIApplication.swift in Sources */,
 				82747E5E24C9B21C00577190 /* HomeView.swift in Sources */,
 				82747E1524C9905300577190 /* MVCCounterViewModel.swift in Sources */,
+				828FF5CD24CAD57D00083EC0 /* MVCCounterViewControllerWrapper.swift in Sources */,
 				82747E0024C98FC900577190 /* MVCCounterView.swift in Sources */,
 				82747E3024C9A90700577190 /* MVCCounterViewController.swift in Sources */,
 			);
