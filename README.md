@@ -1,5 +1,5 @@
 # Counter, SwiftUI/UIKit App.
-### DEMOSTRATING HOW TO REUSE/REFACTOR YOUR OLD CODE USING ADAPTER PATTERN AND LISKOV SUBSTITUTION PRINCIPLE
+### Reusing Code with Adapter Pattern and Liskov Substitution Principle
 
 ![](App%20Screenshots/appScreenshots.jpg)
 
@@ -9,10 +9,10 @@ If you run each of the targets, the app will look exactly the same however under
 
 Clean Swift implementation navigates from landing screen into two screens, first one is UIKit implementation of the counter App and second is SwiftUI implementation of the same app with shared business and presentation logic.
 
-Data flow of UIKit Clean Swift implementation
+### Data flow of UIKit Clean Swift implementation
 ![](App%20Screenshots/cleanSwiftUIKit.PNG)
 
-Data flow of SwiftUI Clean Swift implementation
+### Data flow of SwiftUI Clean Swift implementation
 ![](App%20Screenshots/cleanSwiftSwiftUI.PNG)
 
 When any business or presentation logic is changed it will reflect in both implementations.
