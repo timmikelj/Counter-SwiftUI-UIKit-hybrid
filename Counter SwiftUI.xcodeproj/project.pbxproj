@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8247C35224D2B8D900DDF97B /* CounterViewControllerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8247C35124D2B8D900DDF97B /* CounterViewControllerWrapper.swift */; };
+		8247C35324D354BC00DDF97B /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828FF5CE24CAD98E00083EC0 /* UIApplication.swift */; };
 		82747DFC24C98FC900577190 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82747DFB24C98FC900577190 /* AppDelegate.swift */; };
 		82747DFE24C98FC900577190 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82747DFD24C98FC900577190 /* SceneDelegate.swift */; };
 		82747E0024C98FC900577190 /* MVCCounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82747DFF24C98FC900577190 /* MVCCounterView.swift */; };
@@ -29,7 +30,7 @@
 		82747E4A24C9AFA400577190 /* CounterInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82747E2524C9A75300577190 /* CounterInteractor.swift */; };
 		82747E4B24C9AFA400577190 /* CounterModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82747E2B24C9A7F700577190 /* CounterModels.swift */; };
 		82747E4C24C9AFA400577190 /* CounterViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82747E2324C9A71F00577190 /* CounterViewAdapter.swift */; };
-		82747E4F24C9AFA400577190 /* CounterStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82747E3824C9AE2D00577190 /* CounterStoryboard.storyboard */; };
+		82747E4F24C9AFA400577190 /* Counter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82747E3824C9AE2D00577190 /* Counter.storyboard */; };
 		82747E5024C9AFA400577190 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82747E0624C98FD200577190 /* LaunchScreen.storyboard */; };
 		82747E5324C9AFA400577190 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82747E0124C98FD200577190 /* Assets.xcassets */; };
 		82747E5E24C9B21C00577190 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82747E5D24C9B21C00577190 /* HomeView.swift */; };
@@ -66,7 +67,7 @@
 		82747E3124C9A91700577190 /* MVCCounter.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MVCCounter.storyboard; sourceTree = "<group>"; };
 		82747E3424C9AAFB00577190 /* CustomButtonUIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonUIKit.swift; sourceTree = "<group>"; };
 		82747E3624C9AE1E00577190 /* CounterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewController.swift; sourceTree = "<group>"; };
-		82747E3824C9AE2D00577190 /* CounterStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CounterStoryboard.storyboard; sourceTree = "<group>"; };
+		82747E3824C9AE2D00577190 /* Counter.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Counter.storyboard; sourceTree = "<group>"; };
 		82747E5724C9AFA400577190 /* Counter SwiftUI & UIKit Clean Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Counter SwiftUI & UIKit Clean Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82747E5D24C9B21C00577190 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		82747E6124C9B60600577190 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
@@ -176,7 +177,7 @@
 			children = (
 				8247C35124D2B8D900DDF97B /* CounterViewControllerWrapper.swift */,
 				82747E3624C9AE1E00577190 /* CounterViewController.swift */,
-				82747E3824C9AE2D00577190 /* CounterStoryboard.storyboard */,
+				82747E3824C9AE2D00577190 /* Counter.storyboard */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -260,9 +261,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		82747DF724C98FC900577190 /* Counter SwiftUI MVC */ = {
+		82747DF724C98FC900577190 /* Counter MVC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 82747E0C24C98FD200577190 /* Build configuration list for PBXNativeTarget "Counter SwiftUI MVC" */;
+			buildConfigurationList = 82747E0C24C98FD200577190 /* Build configuration list for PBXNativeTarget "Counter MVC" */;
 			buildPhases = (
 				82747DF424C98FC900577190 /* Sources */,
 				82747DF524C98FC900577190 /* Frameworks */,
@@ -272,14 +273,14 @@
 			);
 			dependencies = (
 			);
-			name = "Counter SwiftUI MVC";
+			name = "Counter MVC";
 			productName = "Counter SwiftUI";
 			productReference = 82747DF824C98FC900577190 /* Counter SwiftUI & UIKit MVC.app */;
 			productType = "com.apple.product-type.application";
 		};
-		82747E3B24C9AFA400577190 /* Counter SwiftUI Clean Swift */ = {
+		82747E3B24C9AFA400577190 /* Counter Clean Swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 82747E5424C9AFA400577190 /* Build configuration list for PBXNativeTarget "Counter SwiftUI Clean Swift" */;
+			buildConfigurationList = 82747E5424C9AFA400577190 /* Build configuration list for PBXNativeTarget "Counter Clean Swift" */;
 			buildPhases = (
 				82747E3C24C9AFA400577190 /* Sources */,
 				82747E4D24C9AFA400577190 /* Frameworks */,
@@ -289,7 +290,7 @@
 			);
 			dependencies = (
 			);
-			name = "Counter SwiftUI Clean Swift";
+			name = "Counter Clean Swift";
 			productName = "Counter SwiftUI";
 			productReference = 82747E5724C9AFA400577190 /* Counter SwiftUI & UIKit Clean Swift.app */;
 			productType = "com.apple.product-type.application";
@@ -322,8 +323,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				82747DF724C98FC900577190 /* Counter SwiftUI MVC */,
-				82747E3B24C9AFA400577190 /* Counter SwiftUI Clean Swift */,
+				82747DF724C98FC900577190 /* Counter MVC */,
+				82747E3B24C9AFA400577190 /* Counter Clean Swift */,
 			);
 		};
 /* End PBXProject section */
@@ -343,7 +344,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82747E4F24C9AFA400577190 /* CounterStoryboard.storyboard in Resources */,
+				82747E4F24C9AFA400577190 /* Counter.storyboard in Resources */,
 				82747E5024C9AFA400577190 /* LaunchScreen.storyboard in Resources */,
 				82747E5324C9AFA400577190 /* Assets.xcassets in Resources */,
 			);
@@ -377,6 +378,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8247C35324D354BC00DDF97B /* UIApplication.swift in Sources */,
 				82747E3D24C9AFA400577190 /* CustomButtonUIKit.swift in Sources */,
 				82747E3F24C9AFA400577190 /* AppDelegate.swift in Sources */,
 				82747E4124C9AFA400577190 /* SceneDelegate.swift in Sources */,
@@ -621,7 +623,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		82747E0C24C98FD200577190 /* Build configuration list for PBXNativeTarget "Counter SwiftUI MVC" */ = {
+		82747E0C24C98FD200577190 /* Build configuration list for PBXNativeTarget "Counter MVC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				82747E0D24C98FD200577190 /* Debug */,
@@ -630,7 +632,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		82747E5424C9AFA400577190 /* Build configuration list for PBXNativeTarget "Counter SwiftUI Clean Swift" */ = {
+		82747E5424C9AFA400577190 /* Build configuration list for PBXNativeTarget "Counter Clean Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				82747E5524C9AFA400577190 /* Debug */,

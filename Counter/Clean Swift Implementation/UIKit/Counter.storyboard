@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17140" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="eOO-A2-76H">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17115"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Counter View Controller-->
+        <scene sceneID="SPs-Ae-wPL">
+            <objects>
+                <viewController storyboardIdentifier="CounterViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="eOO-A2-76H" customClass="CounterViewController" customModule="Counter_SwiftUI___UIKit_Clean_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="C52-Zj-FYz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Start counting" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x6W-Lq-dgG">
+                                <rect key="frame" x="20" y="338" width="374" height="41"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="1JT-Ch-ifH">
+                                <rect key="frame" x="77" y="479" width="260" height="100"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3BT-kK-4Uj" customClass="CustomButtonUIKit" customModule="Counter_SwiftUI___UIKit_Clean_Swift" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="100" id="KeF-9B-3zb"/>
+                                            <constraint firstAttribute="height" constant="100" id="MCk-XO-9KQ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                        <state key="normal" title="-">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="decreaseTapped:" destination="eOO-A2-76H" eventType="touchUpInside" id="9X8-Hq-5YG"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IUq-KX-Ry4" customClass="CustomButtonUIKit" customModule="Counter_SwiftUI___UIKit_Clean_Swift" customModuleProvider="target">
+                                        <rect key="frame" x="160" y="0.0" width="100" height="100"/>
+                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="Tty-Lz-mTQ"/>
+                                            <constraint firstAttribute="width" constant="100" id="bIu-ED-uPh"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                        <state key="normal" title="+">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="increaseTapped:" destination="eOO-A2-76H" eventType="touchUpInside" id="24y-3S-j4M"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="v5n-LX-D7I"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="x6W-Lq-dgG" firstAttribute="leading" secondItem="v5n-LX-D7I" secondAttribute="leading" constant="20" id="4tT-1c-aBV"/>
+                            <constraint firstItem="v5n-LX-D7I" firstAttribute="trailing" secondItem="x6W-Lq-dgG" secondAttribute="trailing" constant="20" id="AHf-f3-GEj"/>
+                            <constraint firstItem="1JT-Ch-ifH" firstAttribute="top" secondItem="x6W-Lq-dgG" secondAttribute="bottom" constant="100" id="GR9-df-5fJ"/>
+                            <constraint firstItem="1JT-Ch-ifH" firstAttribute="centerX" secondItem="v5n-LX-D7I" secondAttribute="centerX" id="oLp-sg-eqa"/>
+                            <constraint firstItem="x6W-Lq-dgG" firstAttribute="centerY" secondItem="C52-Zj-FYz" secondAttribute="centerY" multiplier="0.8" id="wwG-qk-7XO"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="titleLabel" destination="x6W-Lq-dgG" id="KFN-Kj-Qzl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V2C-yT-LaK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-475.36231884057975" y="97.767857142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

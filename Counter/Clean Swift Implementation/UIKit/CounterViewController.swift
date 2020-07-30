@@ -24,6 +24,11 @@ class CounterViewController: UIViewController {
         presenter.viewController = viewController
     }
     
+    override func viewDidLoad() {
+        view.backgroundColor = .offWhite
+        UIApplication.shared.statusBarView?.backgroundColor = .offWhite
+    }
+    
     @IBAction func decreaseTapped(_ sender: CustomButtonUIKit) {
         interactor?.decreaseTapped()
     }

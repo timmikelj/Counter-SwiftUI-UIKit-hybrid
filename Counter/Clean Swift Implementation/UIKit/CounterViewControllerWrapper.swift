@@ -13,12 +13,12 @@ struct CounterViewControllerWrapper: UIViewControllerRepresentable {
     func makeUIViewController(context: Context) -> CounterViewController {
         
         guard let viewController = UIStoryboard(name: "Counter", bundle: nil)
-                .instantiateViewController(withIdentifier: "CounterViewController") as? CounterViewController else { return UIViewController() as! CounterViewController }
+                .instantiateViewController(withIdentifier: "CounterViewController") as? CounterViewController else {
+            fatalError("CounterViewController doesn't exist in Counter storyboard")
+        }
         
         return viewController
     }
     
-    func updateUIViewController(_ uiViewController: CounterViewController, context: Context) {
-        
-    }
+    func updateUIViewController(_ uiViewController: CounterViewController, context: Context) {}
 }
