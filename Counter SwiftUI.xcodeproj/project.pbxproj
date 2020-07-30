@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8247C35224D2B8D900DDF97B /* CounterViewControllerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8247C35124D2B8D900DDF97B /* CounterViewControllerWrapper.swift */; };
 		82747DFC24C98FC900577190 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82747DFB24C98FC900577190 /* AppDelegate.swift */; };
 		82747DFE24C98FC900577190 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82747DFD24C98FC900577190 /* SceneDelegate.swift */; };
 		82747E0024C98FC900577190 /* MVCCounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82747DFF24C98FC900577190 /* MVCCounterView.swift */; };
@@ -44,6 +45,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8247C35124D2B8D900DDF97B /* CounterViewControllerWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewControllerWrapper.swift; sourceTree = "<group>"; };
 		82747DF824C98FC900577190 /* Counter SwiftUI & UIKit MVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Counter SwiftUI & UIKit MVC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82747DFB24C98FC900577190 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82747DFD24C98FC900577190 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 			children = (
 				82747E3624C9AE1E00577190 /* CounterViewController.swift */,
 				82747E3824C9AE2D00577190 /* CounterStoryboard.storyboard */,
+				8247C35124D2B8D900DDF97B /* CounterViewControllerWrapper.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -381,6 +384,7 @@
 				82747E6324C9B66300577190 /* Color.swift in Sources */,
 				82747E5F24C9B22100577190 /* HomeView.swift in Sources */,
 				82747E4424C9AFA400577190 /* CounterPresenter.swift in Sources */,
+				8247C35224D2B8D900DDF97B /* CounterViewControllerWrapper.swift in Sources */,
 				82747E4524C9AFA400577190 /* CounterDisplayLogic.swift in Sources */,
 				82747E4724C9AFA400577190 /* CounterView.swift in Sources */,
 				82747E4A24C9AFA400577190 /* CounterInteractor.swift in Sources */,
@@ -532,6 +536,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_SWIFT_FLAGS = "-D MVCTarget";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.timmikelj.Counter-SwiftUI-UIKit-MVC";
 				PRODUCT_NAME = "Counter SwiftUI & UIKit MVC";
 				SWIFT_VERSION = 5.0;
@@ -552,6 +557,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_SWIFT_FLAGS = "-D MVCTarget";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.timmikelj.Counter-SwiftUI-UIKit-MVC";
 				PRODUCT_NAME = "Counter SwiftUI & UIKit MVC";
 				SWIFT_VERSION = 5.0;
@@ -572,6 +578,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_SWIFT_FLAGS = "-D CleanSwiftTarget";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.timmikelj.Counter-SwiftUI-UIKit-Clean-Swift";
 				PRODUCT_NAME = "Counter SwiftUI & UIKit Clean Swift";
 				SWIFT_VERSION = 5.0;
@@ -592,6 +599,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_SWIFT_FLAGS = "-D CleanSwiftTarget";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.timmikelj.Counter-SwiftUI-UIKit-Clean-Swift";
 				PRODUCT_NAME = "Counter SwiftUI & UIKit Clean Swift";
 				SWIFT_VERSION = 5.0;

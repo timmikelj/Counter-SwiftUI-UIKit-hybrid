@@ -25,8 +25,13 @@ struct HomeView: View {
             
             ZStack {
                 
+                #if CleanSwiftTarget
+                NavigationLink(destination: CounterView(), tag: 2, selection: $mvcCounterViewTag) {}
+                NavigationLink(destination: CounterViewControllerWrapper(), tag: 1, selection: $mvcCounterViewTag) {}
+                #else
                 NavigationLink(destination: MVCCounterView(), tag: 2, selection: $mvcCounterViewTag) {}
                 NavigationLink(destination: MVCCounterViewControllerWrapper(), tag: 1, selection: $mvcCounterViewTag) {}
+                #endif
                 
                 Color(.offWhite)
                 
