@@ -29,8 +29,8 @@ struct HomeView: View {
                 NavigationLink(destination: CounterView(), tag: 2, selection: $navigationTag) {}
                 NavigationLink(destination: CounterViewControllerWrapper(), tag: 1, selection: $navigationTag) {}
                 #else
-                NavigationLink(destination: MVCCounterView(), tag: 2, selection: $mvcCounterViewTag) {}
-                NavigationLink(destination: MVCCounterViewControllerWrapper(), tag: 1, selection: $mvcCounterViewTag) {}
+                NavigationLink(destination: MVCCounterView(), tag: 2, selection: $navigationTag) {}
+                NavigationLink(destination: MVCCounterViewControllerWrapper(), tag: 1, selection: $navigationTag) {}
                 #endif
                 
                 Color(.offWhite)

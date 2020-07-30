@@ -174,9 +174,9 @@
 		82256F3724CACF9C00EFDE90 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				8247C35124D2B8D900DDF97B /* CounterViewControllerWrapper.swift */,
 				82747E3624C9AE1E00577190 /* CounterViewController.swift */,
 				82747E3824C9AE2D00577190 /* CounterStoryboard.storyboard */,
-				8247C35124D2B8D900DDF97B /* CounterViewControllerWrapper.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
