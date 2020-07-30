@@ -10,7 +10,7 @@ import SwiftUI
 
 struct HomeView: View {
     
-    @State var mvcCounterViewTag: Int? = nil
+    @State private var navigationTag: Int? = nil
     
     init() {
         UINavigationBar.appearance().largeTitleTextAttributes = [.foregroundColor: UIColor.darkGray]
@@ -26,8 +26,8 @@ struct HomeView: View {
             ZStack {
                 
                 #if CleanSwiftTarget
-                NavigationLink(destination: CounterView(), tag: 2, selection: $mvcCounterViewTag) {}
-                NavigationLink(destination: CounterViewControllerWrapper(), tag: 1, selection: $mvcCounterViewTag) {}
+                NavigationLink(destination: CounterView(), tag: 2, selection: $navigationTag) {}
+                NavigationLink(destination: CounterViewControllerWrapper(), tag: 1, selection: $navigationTag) {}
                 #else
                 NavigationLink(destination: MVCCounterView(), tag: 2, selection: $mvcCounterViewTag) {}
                 NavigationLink(destination: MVCCounterViewControllerWrapper(), tag: 1, selection: $mvcCounterViewTag) {}
@@ -39,7 +39,7 @@ struct HomeView: View {
                     Spacer()
                     
                     Button(action: {
-                        self.mvcCounterViewTag = 1
+                        self.navigationTag = 1
                         
                     }) {
                         Text("UIKit")
@@ -54,7 +54,7 @@ struct HomeView: View {
                     
                     
                     Button(action: {
-                        self.mvcCounterViewTag = 2
+                        self.navigationTag = 2
                     }) {
                         Text("SwiftUI")
                             .foregroundColor(Color(.darkGray))
