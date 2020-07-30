@@ -12,7 +12,7 @@ Clean Swift implementation navigates from landing screen into two screens, first
 ### Data flow of UIKit Clean Swift implementation
 ![](App%20Screenshots/cleanSwiftUIKit.PNG)
 
-### Data flow of SwiftUI Clean Swift implementation
+### Data flow of SwiftUI Clean Swift implementation with Adapter Layer
 ![](App%20Screenshots/cleanSwiftSwiftUI.PNG)
 
 When any business or presentation logic is changed it will reflect in both implementations.
