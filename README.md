@@ -10,9 +10,11 @@ If you run each of the targets, the app will look exactly the same however under
 Clean Swift implementation navigates from landing screen into two screens, first one is UIKit implementation of the counter App and second is SwiftUI implementation of the same app with shared business and presentation logic.
 
 ### Data flow of UIKit Clean Swift implementation
+VIP cycle
 ![](App%20Screenshots/cleanSwiftUIKit.PNG)
 
-### Data flow of SwiftUI Clean Swift implementation with Adapter Layer
+### Data flow of SwiftUI Clean Swift implementation
+VIP cycle with Adapter Layer
 ![](App%20Screenshots/cleanSwiftSwiftUI.PNG)
 
 When any business or presentation logic is changed it will reflect in both implementations.
